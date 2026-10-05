@@ -1,0 +1,87 @@
+:root {
+  --font-family: "Baloo 2", cursive;
+
+  --green: #aaf4ae;
+  --primary-green: #48a141;
+  --dark-green: #285c2b;
+  --light-green: #eef9ef;
+
+  --yellow: #fce5a6;
+  --dark-yellow: #f9c83d;
+  --light-yellow: #fff8df;
+
+  --dark-orange: #f35613;
+  --light-orange: #fff3e0;
+
+  --blue: #0761a2;
+  --light-blue: #e3f2fd;
+  --dark-text: #183153;
+
+  --dark-pink: #ad1457;
+  --light-pink: #fce4ec;
+
+  --teal: #a7d8fb;
+  --dark-teal: #00695c;
+  --light-teal: #e0f2f1;
+
+  --dark-violet: #6a1b9a;
+  --light-violet: #ede7f6;
+
+  --white: #ffffff;
+
+  --border-radius: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0 !important;
+}
+
+h6 {
+  color: var(--primary-green) !important;
+  letter-spacing: 2px;
+  font-size: 13px !important;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: var(--dark-text) !important;
+  font-size: 36px !important;
+  font-weight: 700 !important;
+}
+
+p {
+  color: var(--dark-text);
+  font-size: 16px;
+  font-weight: 500;
+  word-spacing: 1px;
+  letter-spacing: 0.1px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0 !important;
+}
+
+.apply-btn {
+  background-color: var(--primary-green);
+  color: var(--white);
+  border-radius: var(--border-radius);
+  padding: 10px 25px;
+  transition: all 0.3s;
+  border: none;
+}
+
+.apply-btn:hover {
+  /* padding: 10px 30px; */
+  letter-spacing: 0.5px;
+}
