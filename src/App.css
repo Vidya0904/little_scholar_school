@@ -16,13 +16,8 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-brand .logo h3,
-.navbar-brand .logo h6 {
-  color: var(--blue);
-}
-
 .navbar-collapse .navbar-nav .nav-item .nav-link {
-  color: var(--blue);
+  color: var(--dark-text);
   font-size: 16px;
   padding: 10px 15px;
   font-weight: 500;
@@ -598,5 +593,6 @@
   }
   .footer .footer-content .footer-r {
     margin-top: 50px;
+    gap: 70px;
   }
 }
