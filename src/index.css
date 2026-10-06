@@ -72,6 +72,11 @@ ul {
   padding-left: 0 !important;
 }
 
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+}
+
 .apply-btn {
   background-color: var(--primary-green);
   color: var(--white);

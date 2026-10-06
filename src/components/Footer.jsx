@@ -29,16 +29,16 @@ function Footer() {
                   <h4 className="mb-2">Follow Us</h4>
                   <ul className="footer-social d-flex  gap-2">
                     <li>
-                      <i class="fa-brands fa-facebook"></i>
+                      <i className="fa-brands fa-facebook"></i>
                     </li>
                     <li>
-                      <i class="fa-brands fa-square-instagram"></i>
+                      <i className="fa-brands fa-square-instagram"></i>
                     </li>
                     <li>
-                      <i class="fa-brands fa-twitter"></i>
+                      <i className="fa-brands fa-twitter"></i>
                     </li>
                     <li>
-                      <i class="fa-brands fa-youtube"></i>
+                      <i className="fa-brands fa-youtube"></i>
                     </li>
                   </ul>
                 </div>

@@ -18,23 +18,23 @@ function Facilities() {
             </div>
             <div className="fac-card-content">
               <img src="./images/facility/f2.png" alt="f2" />
-              <h5>Experienced Teachers</h5>
+              <h5>Safe Environment</h5>
               <p>
-                Caring and qualified <br /> faculty members
+                Clean, Secure and <br /> child-friendly campus
               </p>
             </div>
             <div className="fac-card-content">
               <img src="./images/facility/f3.png" alt="f3" />
-              <h5>Experienced Teachers</h5>
+              <h5>Activity-Based Learning</h5>
               <p>
-                Caring and qualified <br /> faculty members
+                Fun and engaging <br /> learning methods
               </p>
             </div>
             <div className="fac-card-content">
               <img src="./images/facility/f4.png" alt="f4" />
-              <h5>Experienced Teachers</h5>
+              <h5>Sport & Activities</h5>
               <p>
-                Caring and qualified <br /> faculty members
+                Build confidence and <br /> healthy habits
               </p>
             </div>
           </div>

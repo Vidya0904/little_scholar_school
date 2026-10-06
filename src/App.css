@@ -33,7 +33,7 @@
 /* Banner starts */
 
 .hero-section {
-  background-image: url("./images/banner.jpeg");
+  background-image: url("/public/images/banner.jpeg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -497,9 +497,9 @@
 
 /* Media Query  */
 
-@media (min-width: 425px) and (max-width: 767px) {
-  .navbar {
-    background-color: rgb(255, 152, 152);
+@media (max-width: 575.98px) {
+  .navbar-collapse {
+    padding-bottom: 20px;
   }
 
   .hero-section .hero-section-content {
@@ -540,7 +540,7 @@
     height: 230px;
   }
   .contact {
-    height: fit-content;
+    height: 120vh;
   }
 
   .contact .cntct-content {
@@ -550,7 +550,8 @@
     display: block;
   }
 
-  .contact .cntct-content .form-control {
+  .contact .cntct-content .form-control,
+  .contact .cntct-content .form-select {
     margin-bottom: 20px;
   }
   .footer .footer-content {
@@ -563,8 +564,8 @@
   }
 }
 @media (min-width: 768px) and (max-width: 990px) {
-  .navbar {
-    background-color: rgb(187, 187, 255);
+  .navbar-collapse {
+    padding-bottom: 20px;
   }
   .hero-section .hero-section-content {
     width: 70%;

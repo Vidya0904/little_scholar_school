@@ -9,7 +9,7 @@ function Contact() {
           <div className="cntct-content">
             <div className="cntct-content-form">
               <div>
-                <label for="studentName">Student Name</label>
+                <label>Student Name</label>
                 <input
                   className="form-control"
                   type="text"
@@ -18,7 +18,7 @@ function Contact() {
                 />
               </div>
               <div>
-                <label for="dob">Date of Birth</label>
+                <label>Date of Birth</label>
                 <input
                   className="form-control"
                   type="date"
@@ -27,7 +27,7 @@ function Contact() {
                 />
               </div>
               <div>
-                <label for="class">Class Applying For</label>
+                <label>Class Applying For</label>
                 <select className="form-select" id="class">
                   <option selected>Select Class</option>
                   <option value="1">Nursery</option>
@@ -40,7 +40,7 @@ function Contact() {
                 </select>
               </div>
               <div>
-                <label for="parentName">Parent Name</label>
+                <label>Parent Name</label>
                 <input
                   className="form-control"
                   type="text"
@@ -49,7 +49,7 @@ function Contact() {
                 />
               </div>
               <div>
-                <label for="mobile">Mobile Number</label>
+                <label>Mobile Number</label>
                 <input
                   className="form-control"
                   type="number"
@@ -58,7 +58,7 @@ function Contact() {
                 />
               </div>
               <div>
-                <label for="email">Email</label>
+                <label>Email</label>
                 <input
                   className="form-control"
                   type="email"
@@ -67,7 +67,7 @@ function Contact() {
                 />
               </div>
               <div>
-                <label for="address">Address</label>
+                <label>Address</label>
                 <textarea
                   className="form-control"
                   id="address"
@@ -75,7 +75,7 @@ function Contact() {
                 />
               </div>
               <div>
-                <label for="msg">Message</label>
+                <label>Message</label>
                 <textarea
                   className="form-control"
                   id="msg"

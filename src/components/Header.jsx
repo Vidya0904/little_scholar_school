@@ -39,7 +39,7 @@ function Header() {
                 <a className="nav-link" href="#classes">
                   Classes
                 </a>
-              </li>
+              </li>{" "}
               <li className="nav-item">
                 <a className="nav-link" href="#activities">
                   Facilities
