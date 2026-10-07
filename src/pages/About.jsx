@@ -11,7 +11,7 @@ function About() {
               <h6>About our school</h6>
               <h3>
                 Where Learning Feels
-                <br /> Like an Adveture
+                <br /> Like an Adventure
               </h3>
               <p>
                 At Little Scholars School, we believe that every child is unique

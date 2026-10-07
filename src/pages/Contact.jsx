@@ -1,5 +1,4 @@
 import React from "react";
-import Activities from "../pages/Activities";
 
 function Contact() {
   return (
